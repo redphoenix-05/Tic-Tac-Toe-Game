@@ -7,21 +7,39 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Tic-Tac-Toe Game</h1>
-    <div class="container">
-        <div class="game-board">
-            <button class="box">X</button>
-            <button class="box">O</button>
-            <button class="box"></button>
-            <button class="box"></button>
-            <button class="box"></button>
-            <button class="box"></button>
-            <button class="box"></button>
-            <button class="box"></button>
-            <button class="box"></button>
+    <header>
+        <h1>Tic-Tac-Toe Game</h1>
+    </header>
+    <main>
+        <div class="container">
+            <div class="game-board">
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+            </div>
         </div>
-    </div>
-    
+        <div class="wintime">
+            <p class ="player1">Player X: 0</p>
+            <p class ="player2">Player O: 0</p>
+            <p class ="draw">Draw: 0</p> 
+        </div>
+
+        <div class="status">
+            <p class="winner-message hide"></p>
+        </div>
+        <br><br>
+        <div class="btn">
+            <button class = "new-game-button">New Game</button>
+            <button class="reset-button">Reset Game</button>
+        </div>
+        
+    </main>
     <script src="app.js"></script>
 </body>
 </html>
